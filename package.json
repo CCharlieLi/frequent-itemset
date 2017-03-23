@@ -1,0 +1,33 @@
+{
+  "name": "frequent-itemset",
+  "version": "1.0.0",
+  "description": "Use Apriori algorithm to calculate frequent itemset from a list of arrarys",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint . --fix",
+    "test": "mocha -b --timeout 2000 --reporter spec test/*.test.js"
+  },
+  "keywords": [
+    "frequent",
+    "itemset",
+    "frequentitemset",
+    "Apriori",
+    "algorithm",
+    "arrarys"
+  ],
+  "author": "CCharlieLi",
+  "license": "MIT",
+  "engines": {
+    "npm": ">=3.8.0",
+    "node": ">=6.3.1"
+  },
+  "dependencies": {
+    "generatorics": "^1.1.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0",
+    "mocha": "^3.2.0"
+  }
+}
