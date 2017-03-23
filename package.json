@@ -1,6 +1,6 @@
 {
   "name": "frequent-itemset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use Apriori algorithm to calculate frequent itemset from a list of arrarys",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,16 @@
     "chai": "^3.5.0",
     "eslint": "^3.18.0",
     "mocha": "^3.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCharlieLi/frequent-itemset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CCharlieLi/frequent-itemset/issues"
+  },
+  "homepage": "https://github.com/CCharlieLi/frequent-itemset#readme"
 }
