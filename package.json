@@ -1,6 +1,6 @@
 {
   "name": "frequent-itemset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use Apriori algorithm to calculate frequent itemset from a list of arrarys",
   "main": "index.js",
   "scripts": {
