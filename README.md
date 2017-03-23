@@ -1,5 +1,7 @@
 # Frequent Itemset
 
+[![Build Status](https://travis-ci.org/CCharlieLi/frequent-itemset.svg?branch=master)](https://travis-ci.org/CCharlieLi/frequent-itemset)
+
 Give a array of item sets and a minimum support, return you back a array of maximum frequent itemset.
 
 This lib is implemented in [Apriori algorithm](https://en.wikipedia.org/wiki/Apriori_algorithm). 
