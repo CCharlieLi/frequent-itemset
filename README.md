@@ -14,6 +14,11 @@ npm i frequent-itemset
 
 ### Usage
 
+- Parameters
+    - Array of itemsets
+    - Support number
+    - Include/Exclude support number 
+
 ```
 const fi = require('frequent-itemset');
 console.log(fi(
@@ -23,7 +28,8 @@ console.log(fi(
     ['4', '6', '3'],
     ['4', '5', '3', '1', '2']
   ],
-  0.5
+  0.5,
+  true
 ));
 
 // [ [ '4', '5', '3' ], [ '3', '1', '2' ] ]
